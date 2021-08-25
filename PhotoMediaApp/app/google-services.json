@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "904547810274",
+    "project_id": "photomediaapp-7eb48",
+    "storage_bucket": "photomediaapp-7eb48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904547810274:android:5711a340017996ecb217bb",
+        "android_client_info": {
+          "package_name": "com.ysanjeet535.photomediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904547810274-9ko8an166m2ifnb3tqpk5sg4uogo695t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyz-VfhD5QtsqrmbXGzbGkMAFE5TQqUg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904547810274-9ko8an166m2ifnb3tqpk5sg4uogo695t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

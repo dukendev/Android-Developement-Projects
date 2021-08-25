@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadActivity">
+
+
+    <Button
+        android:id="@+id/bUpload_Choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        android:text="Choose Image"
+        />
+
+    <ImageView
+        android:id="@+id/ivUpload_preview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:layout_margin="8dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/etUpload_Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a nice caption"
+        android:layout_margin="8dp"
+        android:ems="10"
+
+        />
+    <Button
+        android:id="@+id/bUpload_Upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:text="Upload"
+        android:padding="15dp"
+        />
+
+
+
+</LinearLayout>
